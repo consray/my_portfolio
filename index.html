@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="hero">
+        <h1>Your Name</h1>
+        <p>Web Developer | Designer | Coder</p>
+    </section>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>A short bio about your background and interests.</p>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <div class="project-item">Project 1</div>
+            <div class="project-item">Project 2</div>
+            <div class="project-item">Project 3</div>
+        </div>
+    </section>
+    
+    <section id="skills">
+        <h2>Skills</h2>
+        <p>List of your technical skills with icons or progress bars.</p>
+    </section>
+    
+    <section id="resume">
+        <h2>Resume</h2>
+        <a href="resume.pdf" download>Download Resume</a>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Your Name">
+            <input type="email" id="email" placeholder="Your Email">
+            <textarea id="message" placeholder="Your Message"></textarea>
+            <button type="submit">Send</button>
+            <p id="status-message"></p>
+        </form>
+        
+    </section>
+    
+    <footer>
+        <p>&copy; <span id="year"></span> Dennis Kiptoo. All rights reserved.</p>
+    </footer>
+</body>
+</html>
